@@ -1,0 +1,282 @@
+
+              /* Navigation bar */
+
+            
+            
+            html{
+                scroll-behavior: smooth;
+            }
+            
+              *{
+  font-family:  'Anton', sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Spirax', cursive; */
+}
+              #navbar{
+    
+    display: flex;
+    position:s;
+    top: 0px;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+#navbar::before{
+  background-color: black;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+#navbar ul{
+    display: flex;
+align-items: center;
+} 
+#navbar ul li{
+padding: 6px;
+margin: 6px;
+list-style: none;
+}
+#navbar ul li a{
+text-decoration: none;
+font-size: 30px;
+padding: 10px 20px;
+
+background-color: black;
+color: white;
+border-radius: 25px;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+  
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    }
+/* navigation bar image and logo */
+#logo{
+
+padding: 20px;
+}
+#mainlogo{
+    /* display: block; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+                              /* home section */
+  #home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    height: 680px;
+padding: 25px 150px;
+  }    
+  #home::before{
+    background:url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600')   no-repeat center
+   center/cover ;
+
+    content: "";
+    position: absolute;
+    height: 875px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+   z-index: -1;
+}  
+#home p{
+    font-size: 25px;
+    text-align: center;
+   
+}                      
+.btn{
+    font-size: 20px;
+    background-color: rgb(134, 52, 5);
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+padding:20px;
+margin: 12px 15px;
+cursor: pointer;
+}
+
+                    /* services section */
+                    
+
+
+#service-container{
+  height: 732px;
+}
+   #service-container::before{
+    background:url('images/background/background.png')   no-repeat center
+   center/cover;
+    content: "";
+    position: absolute;
+    height: 732px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    opacity: 0.8;
+   z-index: -1;
+}   
+
+                    #services{
+                     
+  display: flex;
+  justify-content: center;
+
+}
+.service-item{
+  border: 2px solid brown;
+  margin: 70px;
+  padding: 20px;
+  height: 500px;
+ 
+  border-radius: 45px;
+  background-color: rgb(200, 199, 198);
+  color: red;
+}
+.service-item img{
+  display: block;
+ 
+  margin: auto;
+}
+#img1{ width: 321px;}
+#img2{ width: 235px;}
+#img3{ width: 300px;}
+
+
+/* clients section */
+#clients-section{position: relative;
+
+}
+
+  #clients-section::before{
+    background:url('images/background/img4.png')   no-repeat center
+   center/cover;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:100%;
+opacity: 0.5;
+   z-index: -1;
+   left: 0px;
+}   
+
+
+.clients{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+  align-items: center;
+}
+.client-item{ margin: sss50px;
+  padding: 100px;}
+
+.clients img{
+ display: block;
+
+  height: 80px;
+
+}
+
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-bottom: 35px;
+  /* flex-direction: column; */
+}
+#contact-box input,#contact-box textarea{
+ padding: 15px;
+font-size: 1.5rem;
+border-radius: 10px;
+  width: 150%;
+}
+
+#contact-box form{
+  font-size: 2.5rem; 
+}
+#contact::before{
+  background:url('https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&w=600')   no-repeat center
+ center/cover;
+  content: "";
+  position: absolute;
+  height: 978px;
+  width: 100%;
+  left: 0px;
+  opacity: 0.8;
+ z-index: -1;
+}   
+
+footer{
+width: 100%;
+  background-color:black ;
+  color: white;
+  position: absolute;
+  left: 0px;
+  font-size: 1.5rem;
+}
+input{
+  font-size: 1.6rem;
+}
+.submit{
+  width: 103%;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility  classes */
+  .h-primary{
+    font-size:5rem;
+  margin: 10px;
+  padding: 10px;
+    color: white;
+  }
+  .h-secondary{
+    color: black;
+    font-size: 3rem;
+  }
+  .center
+  {
+    text-align: center;
+  }
